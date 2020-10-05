@@ -96,4 +96,4 @@ app.get('/', (req, res) => {
   res.send('I am working')
 })
 
-app.listen(process.env.port || port)
+app.listen(process.env.PORT || port)
